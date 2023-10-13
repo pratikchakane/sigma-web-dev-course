@@ -1,0 +1,11 @@
+#div1{
+    margin-top: 10%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    background-color: crimson;
+    border: 10px;
+}
