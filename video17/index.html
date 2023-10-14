@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+        /* universal selector */
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+            background-color: #FAF5FF;
+        }
+        /* Element Selector */
+        h1{
+            background-color: violet;
+
+        }
+        /* id selector */
+        #mydiv{
+            background-color: burlywood;
+        }
+        /* class selector */
+        .divclass{
+            background-color: palegreen;
+        }
+        /* group selector */
+        h1,div{
+            background-color: brown;
+        }
+
+        /* pseudo selector */
+        h1:hover{
+            background-color: crimson;
+            font-weight: 900;
+
+        }
+        a:visited{
+           color: burlywood;
+        }
+        a:link{
+            color: tomato;
+        }
+        a:active{
+            background-color: orangered;
+        }
+        p:first-child{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>this is heading</h1>
+    <div>
+        this is a div
+    </div>
+    <div id="mydiv">
+        welcome to id selector
+    </div>
+    <div class="divclass">
+        this is my class Selector<br>
+        <a href="https:\\www.google.com">Go To google</a>
+        <a href="https:\\www.instagram.com">Go to instagram</a>
+    </div>
+
+    <div id="one">
+        <p>first child</p>
+        <p>second child</p>
+    </div>
+</body>
+</html>
