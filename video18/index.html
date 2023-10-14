@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            /* total height 200px = height + padding + border   */
+            /* box sizing border box generally used to combined height or width include padding and border margin not inculed */
+            box-sizing: border-box;
+        }
+        .box{
+            background-color: aqua;
+            padding: 10px;
+           
+        }
+        .box1{
+            background-color: yellow;
+            margin: 10px;
+        }
+        .box2{
+            margin: 20px;
+        }
+        /* margin collaps is concept it choose between two margin those margin size is high then it choose higher one 
+        example box1 have margin 10 and box2 have 20 so where margin collapas there it will be choose margin of box2. */
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        this is box 1
+    </div>
+    <div class="box box2">
+        this is box 2
+    </div>
+
+</body>
+</html>
