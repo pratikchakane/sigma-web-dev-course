@@ -1,0 +1,15 @@
+*{
+    background-color: rgb(234, 228, 151);
+}
+
+p{
+    color: rgb(4, 4, 3);
+}
+h1{
+    color: rgb(245, 11, 62);
+}
+div{
+    color: hsl(227, 92%, 46%);
+    border-radius: 2px solid;
+    background-color: black;
+}

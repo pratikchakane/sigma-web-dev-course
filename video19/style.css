@@ -1,0 +1,28 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+#mypara{
+    /* font-size: 20px; */
+    /* font-weight: 800; */
+    /* font-style: italic; */
+    line-height: 2;
+    /* letter-spacing: 10px; */
+   text-align: center;
+   text-transform: uppercase;
+   text-decoration: underline;
+   text-decoration-color: aqua;
+   text-decoration-thickness: 10px;
+   text-decoration-style: dotted;
+   overflow: hidden;
+   text-overflow: ellipsis;
+
+}
