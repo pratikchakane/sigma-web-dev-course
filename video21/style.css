@@ -1,0 +1,23 @@
+.cred {
+    background-color: red;
+}
+
+.cyellow {
+    background-color: yellow;
+
+}
+
+.cpurple {
+    color: greenyellow;
+    background-color: purple;
+}
+
+h1,
+.cyellow {
+    background-color: crimson;
+}
+
+
+[data-x=a] {
+    background-color: rgb(228, 88, 111);
+}
