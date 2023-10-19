@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(206, 206, 164);
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+#main{
+    font-size: 20px;
+}
+h1{
+    font-size: 10rem;
+}
+
+/* #box{
+    height: 500px;
+    width: 80vw;
+    margin: auto;
+
+    background-color: crimson;
+} */
+p{
+    font-size: 2em;
+}
+/* 
+#box{
+    
+    width: 100vw;
+    height: 100vmax;
+    background-color: purple;
+} */
+
+#box{
+    min-height: 80px;
+    min-width: 80px;
+    background-color: yellow;
+}
