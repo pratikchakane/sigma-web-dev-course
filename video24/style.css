@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #D4EDDA;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+#box{
+    margin-top: 120px;
+    font-size: 30px;
+   
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid rgb(164, 27, 50);
+    background-color: aqua;
+    box-shadow: 20px 10px 30px 5px red;
+    /* text-shadow: 2px 2px 4px #888888; */
+    text-shadow: 7px 7px 5px  red ;
+    outline: 5px solid rgb(13, 14, 13);
+    outline-offset: 50px;
+}
