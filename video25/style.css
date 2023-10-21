@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0px 0px 30px;
+}
+/* nav ul li{
+    list-style: devanagari; 
+    list-style-type:"🫡";  
+ background-color: yellow;
+ list-style-position: inside; 
+    border: 2px solid red; 
+ list-style-image: url(https://i.gifer.com/XOsX.gif); 
+ list-style: inside  url(https://www.icegif.com/wp-content/uploads/cool-wallpapers-icegif-1.gif);
+} */
+
+nav ul li{
+    margin: 20px;
+    list-style: none;
+}
