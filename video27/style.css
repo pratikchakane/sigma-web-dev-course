@@ -1,0 +1,22 @@
+ *{
+    /* background-color: aqua; */
+ }
+ 
+ div:first-child p:first-child{
+    background-color: yellow;
+    color: red;
+}
+div:first-child p{
+    background-color: blue;
+    color: white;
+
+}
+div > p:first-child{
+    background-color: yellow;
+    color: red;
+}
+div > p{
+    background-color: blue;
+    color: white;
+
+}
