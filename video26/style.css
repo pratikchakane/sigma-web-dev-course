@@ -1,0 +1,14 @@
+#box{
+    width: 30vw;
+    height: 40vh;
+    border: 2px solid red;
+    /* overflow: scroll; */
+    overflow: auto;
+    /* white-space: nowrap; */
+    /* text-overflow: ellipsis;  */
+    /* overflow-y: hidden; */
+    /* overflow-x: hidden; */
+    /* overflow: auto hidden; */
+    /* overflow: hidden scroll; */
+
+}
